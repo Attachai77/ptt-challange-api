@@ -2,7 +2,7 @@ const pyramid = (number: number) => {
   for (let increment = 1; increment <= number; increment++) {
     let row = ''
 
-    for (let j = 1; j <= number - increment; j++) {
+    for (let space = 1; space <= number - increment; space++) {
       row += '  ';
     }
 
@@ -14,4 +14,4 @@ const pyramid = (number: number) => {
 }
 
 
-pyramid(9)
+pyramid(10)
